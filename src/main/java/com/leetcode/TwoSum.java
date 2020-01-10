@@ -22,6 +22,10 @@ public class TwoSum {
     /**
      * 利用HashMap将数组元素值和其相应的索引组成key-value，每次装载时判断 target-当前key的差，
      * 是否已作为key存在于HashMap中，有则返回这两个key的value组成的结果数组，无则将当前key-value放入HashMap中
+     *
+     * Time: O(n)
+     * Space: O(n)
+     *
      * @param nums 给定的数组
      * @param target 给定的两个数组元素的加和目标值
      * @return 返回这两个加和等于目标值的数组元素的索引，升序排列
